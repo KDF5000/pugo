@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/go-xiaohei/pugo/app/vars"
+	"github.com/kdf5000/pugo/app/vars"
 	"github.com/urfave/cli"
 )
 

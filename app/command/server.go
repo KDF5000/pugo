@@ -6,9 +6,9 @@ import (
 	_ "net/http/pprof"
 	"time"
 
-	"github.com/Unknwon/com"
-	"github.com/go-xiaohei/pugo/app/builder"
-	"github.com/go-xiaohei/pugo/app/server"
+	"github.com/unknwon/com"
+	"github.com/kdf5000/pugo/app/builder"
+	"github.com/kdf5000/pugo/app/server"
 	"github.com/urfave/cli"
 	"gopkg.in/inconshreveable/log15.v2"
 )

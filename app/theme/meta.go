@@ -2,7 +2,7 @@ package theme
 
 import (
 	"github.com/BurntSushi/toml"
-	"github.com/go-xiaohei/pugo/app/model"
+	"github.com/kdf5000/pugo/app/model"
 	"gopkg.in/ini.v1"
 )
 

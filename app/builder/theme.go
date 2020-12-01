@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"path"
 
-	"github.com/Unknwon/com"
-	"github.com/go-xiaohei/pugo/app/theme"
+	"github.com/unknwon/com"
+	"github.com/kdf5000/pugo/app/theme"
 	"gopkg.in/inconshreveable/log15.v2"
 )
 

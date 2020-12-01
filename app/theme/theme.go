@@ -14,9 +14,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Unknwon/com"
-	"github.com/go-xiaohei/pugo/app/model"
-	"github.com/go-xiaohei/pugo/app/vars"
+	"github.com/unknwon/com"
+	"github.com/kdf5000/pugo/app/model"
+	"github.com/kdf5000/pugo/app/vars"
 	"github.com/mcuadros/go-version"
 	"gopkg.in/inconshreveable/log15.v2"
 )

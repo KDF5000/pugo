@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/BurntSushi/toml"
-	"github.com/Unknwon/com"
-	"github.com/go-xiaohei/pugo/app/asset"
-	"github.com/go-xiaohei/pugo/app/model"
+	"github.com/unknwon/com"
+	"github.com/kdf5000/pugo/app/asset"
+	"github.com/kdf5000/pugo/app/model"
 	"github.com/urfave/cli"
 	"gopkg.in/inconshreveable/log15.v2"
 )

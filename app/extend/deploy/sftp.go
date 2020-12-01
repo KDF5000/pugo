@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Unknwon/com"
+	"github.com/unknwon/com"
 	"github.com/pkg/sftp"
 	"github.com/urfave/cli"
 	"golang.org/x/crypto/ssh"

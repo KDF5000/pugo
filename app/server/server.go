@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Unknwon/com"
+	"github.com/unknwon/com"
 	"gopkg.in/inconshreveable/log15.v2"
 )
 

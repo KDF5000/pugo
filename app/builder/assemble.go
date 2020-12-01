@@ -9,9 +9,9 @@ import (
 
 	"gopkg.in/inconshreveable/log15.v2"
 
-	"github.com/go-xiaohei/pugo/app/helper"
-	"github.com/go-xiaohei/pugo/app/model"
-	"github.com/go-xiaohei/pugo/app/sync"
+	"github.com/kdf5000/pugo/app/helper"
+	"github.com/kdf5000/pugo/app/model"
+	"github.com/kdf5000/pugo/app/sync"
 )
 
 // AssembleSource assemble some extra data in Source,

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Unknwon/com"
+	"github.com/unknwon/com"
 	"github.com/urfave/cli"
 	"gopkg.in/inconshreveable/log15.v2"
 )

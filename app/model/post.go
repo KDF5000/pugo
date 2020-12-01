@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/BurntSushi/toml"
-	"github.com/Unknwon/com"
-	"github.com/go-xiaohei/pugo/app/helper"
+	"github.com/unknwon/com"
+	"github.com/kdf5000/pugo/app/helper"
 	"golang.org/x/net/html"
 	"gopkg.in/ini.v1"
 )

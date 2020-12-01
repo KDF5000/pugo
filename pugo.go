@@ -4,8 +4,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/go-xiaohei/pugo/app/command"
-	"github.com/go-xiaohei/pugo/app/vars"
+	"github.com/kdf5000/pugo/app/command"
+	"github.com/kdf5000/pugo/app/vars"
 	"github.com/urfave/cli"
 )
 

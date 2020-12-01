@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Unknwon/com"
-	"github.com/go-xiaohei/pugo/app/helper"
+	"github.com/unknwon/com"
+	"github.com/kdf5000/pugo/app/helper"
 	"gopkg.in/inconshreveable/log15.v2"
 )
 

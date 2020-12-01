@@ -3,7 +3,7 @@ package model
 import (
 	"errors"
 
-	"github.com/go-xiaohei/pugo/app/helper"
+	"github.com/kdf5000/pugo/app/helper"
 	"gopkg.in/ini.v1"
 )
 

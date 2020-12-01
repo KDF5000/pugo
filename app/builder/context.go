@@ -8,12 +8,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Unknwon/com"
-	"github.com/go-xiaohei/pugo/app/helper"
-	"github.com/go-xiaohei/pugo/app/model"
-	"github.com/go-xiaohei/pugo/app/sync"
-	"github.com/go-xiaohei/pugo/app/theme"
-	"github.com/go-xiaohei/pugo/app/vars"
+	"github.com/unknwon/com"
+	"github.com/kdf5000/pugo/app/helper"
+	"github.com/kdf5000/pugo/app/model"
+	"github.com/kdf5000/pugo/app/sync"
+	"github.com/kdf5000/pugo/app/theme"
+	"github.com/kdf5000/pugo/app/vars"
 	"github.com/urfave/cli"
 	"gopkg.in/inconshreveable/log15.v2"
 )

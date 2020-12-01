@@ -8,9 +8,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Unknwon/com"
-	"github.com/go-xiaohei/pugo/app/helper"
-	"github.com/go-xiaohei/pugo/app/model"
+	"github.com/unknwon/com"
+	"github.com/kdf5000/pugo/app/helper"
+	"github.com/kdf5000/pugo/app/model"
 	"gopkg.in/inconshreveable/log15.v2"
 )
 
