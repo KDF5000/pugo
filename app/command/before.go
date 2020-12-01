@@ -3,10 +3,10 @@ package command
 import (
 	"os"
 
+	"github.com/inconshreveable/log15"
+	"github.com/inconshreveable/log15/ext"
 	"github.com/kdf5000/pugo/app/helper"
 	"github.com/urfave/cli"
-	"gopkg.in/inconshreveable/log15.v2"
-	"gopkg.in/inconshreveable/log15.v2/ext"
 )
 
 // Before set before handler when start run cli.App

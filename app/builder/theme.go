@@ -7,7 +7,7 @@ import (
 
 	"github.com/unknwon/com"
 	"github.com/kdf5000/pugo/app/theme"
-	"gopkg.in/inconshreveable/log15.v2"
+	"github.com/inconshreveable/log15"
 )
 
 // ReadTheme read *Theme to *Context

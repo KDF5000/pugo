@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/unknwon/com"
-	"gopkg.in/inconshreveable/log15.v2"
+	"github.com/inconshreveable/log15"
 )
 
 // Server is built-in http server address

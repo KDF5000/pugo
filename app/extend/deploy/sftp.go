@@ -12,7 +12,7 @@ import (
 	"github.com/pkg/sftp"
 	"github.com/urfave/cli"
 	"golang.org/x/crypto/ssh"
-	"gopkg.in/inconshreveable/log15.v2"
+	"github.com/inconshreveable/log15"
 )
 
 type Sftp struct {

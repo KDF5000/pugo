@@ -8,7 +8,7 @@ import (
 
 	"github.com/unknwon/com"
 	"github.com/kdf5000/pugo/app/helper"
-	"gopkg.in/inconshreveable/log15.v2"
+	"github.com/inconshreveable/log15"
 )
 
 // Syncer manage sync file

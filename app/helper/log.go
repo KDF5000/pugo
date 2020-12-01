@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"gopkg.in/inconshreveable/log15.v2"
+	"github.com/inconshreveable/log15"
 )
 
 // LogfmtFormat format logs as fmt.Sprintf

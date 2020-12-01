@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"gopkg.in/inconshreveable/log15.v2"
+	"github.com/inconshreveable/log15"
 )
 
 func TestLog(t *testing.T) {

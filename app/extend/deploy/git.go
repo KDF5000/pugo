@@ -10,7 +10,7 @@ import (
 
 	"github.com/unknwon/com"
 	"github.com/urfave/cli"
-	"gopkg.in/inconshreveable/log15.v2"
+	"github.com/inconshreveable/log15"
 )
 
 // Git is deployment of git repository

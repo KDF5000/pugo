@@ -13,7 +13,7 @@ import (
 	"github.com/kdf5000/pugo/app/helper"
 	"github.com/kdf5000/pugo/app/model"
 	"github.com/gorilla/feeds"
-	"gopkg.in/inconshreveable/log15.v2"
+	"github.com/inconshreveable/log15"
 )
 
 // Compile compile source to static files

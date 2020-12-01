@@ -10,7 +10,7 @@ import (
 	"github.com/kdf5000/pugo/app/builder"
 	"github.com/kdf5000/pugo/app/server"
 	"github.com/urfave/cli"
-	"gopkg.in/inconshreveable/log15.v2"
+	"github.com/inconshreveable/log15"
 )
 
 var (

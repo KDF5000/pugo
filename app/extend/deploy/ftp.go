@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/unknwon/com"
 	"github.com/goftp/ftp"
+	"github.com/inconshreveable/log15"
+	"github.com/unknwon/com"
 	"github.com/urfave/cli"
-	"gopkg.in/inconshreveable/log15.v2"
 )
 
 // Ftp is ftp deployment
