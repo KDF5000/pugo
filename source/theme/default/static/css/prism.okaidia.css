@@ -1,5 +1,5 @@
 /* PrismJS 1.22.0
-https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clike+javascript+c+cpp+go+python */
+https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clike+javascript+c+cpp+diff+git+go+python&plugins=line-numbers+diff-highlight */
 /**
  * okaidia theme for JavaScript, CSS and HTML
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
@@ -122,5 +122,60 @@ pre[class*="language-"] {
 
 .token.entity {
 	cursor: help;
+}
+
+pre[class*="language-"].line-numbers {
+	position: relative;
+	padding-left: 3.8em;
+	counter-reset: linenumber;
+}
+
+pre[class*="language-"].line-numbers > code {
+	position: relative;
+	white-space: inherit;
+}
+
+.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 0;
+	font-size: 100%;
+	left: -3.8em;
+	width: 3em; /* works for line-numbers below 1000 lines */
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+}
+
+	.line-numbers-rows > span {
+		display: block;
+		counter-increment: linenumber;
+	}
+
+		.line-numbers-rows > span:before {
+			content: counter(linenumber);
+			color: #999;
+			display: block;
+			padding-right: 0.8em;
+			text-align: right;
+		}
+
+pre.diff-highlight > code .token.deleted:not(.prefix),
+pre > code.diff-highlight .token.deleted:not(.prefix) {
+	background-color: rgba(255, 0, 0, .1);
+	color: inherit;
+	display: block;
+}
+
+pre.diff-highlight > code .token.inserted:not(.prefix),
+pre > code.diff-highlight .token.inserted:not(.prefix) {
+	background-color: rgba(0, 255, 128, .1);
+	color: inherit;
+	display: block;
 }
 
