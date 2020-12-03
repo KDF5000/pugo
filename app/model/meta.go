@@ -14,15 +14,16 @@ import (
 type (
 	// Meta is meta info of website
 	Meta struct {
-		Title    string `toml:"title" ini:"title"`
-		Subtitle string `toml:"subtitle" ini:"subtitle"`
-		Keyword  string `toml:"keyword" ini:"keyword"`
-		Desc     string `toml:"desc" ini:"desc"`
-		Domain   string `toml:"domain" ini:"domain"`
-		Root     string `toml:"root" ini:"root"`
-		Cover    string `toml:"cover" ini:"cover"`
-		Language string `toml:"lang" ini:"lang"`
-		Path     string `toml:"-" ini:"-"`
+		Title      string `toml:"title" ini:"title"`
+		Subtitle   string `toml:"subtitle" ini:"subtitle"`
+		Keyword    string `toml:"keyword" ini:"keyword"`
+		Desc       string `toml:"desc" ini:"desc"`
+		Domain     string `toml:"domain" ini:"domain"`
+		Root       string `toml:"root" ini:"root"`
+		Cover      string `toml:"cover" ini:"cover"`
+		Language   string `toml:"lang" ini:"lang"`
+		Path       string `toml:"-" ini:"-"`
+		PrismTheme string `toml:"prism_theme" ini:"prism_theme"`
 	}
 	// MetaAll is all data struct in meta file
 	MetaAll struct {

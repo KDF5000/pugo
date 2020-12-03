@@ -24,6 +24,8 @@ cover = "@media/cover.jpg"
 # its used in global posts and themes, unless pages set lang
 lang = "en"
 
+# markdown code theme, seee https://prismjs.com/
+prism_theme = "okaidia"
 
 [[nav]]
 link = "/guide"
