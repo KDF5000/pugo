@@ -39,11 +39,11 @@ title = "Archive"
 i18n = "archive"
 hover = "archive"
 
-[[nav]]
-link = "/about"
-title = "About"
-i18n = "about"
-hover = "about"
+# [[nav]]
+# link = "/about"
+# title = "About"
+# i18n = "about"
+# hover = "about"
 
 # [[nav]]
 # link = "http://pugo.io"

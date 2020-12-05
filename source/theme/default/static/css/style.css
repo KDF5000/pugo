@@ -182,9 +182,9 @@ body {
     max-width: 70%;
     display: block;
     vertical-align: middle;
-    box-shadow: 0 0 4px #555;
+    /* box-shadow: 0 0 4px #555;
+    border-radius: 6px;*/
     margin: 10px auto;
-    border-radius: 6px;
 }
 
 .article-pager .btn {
@@ -271,16 +271,21 @@ body {
     padding: 2em 3em;
 }
 
+.archive .year {
+    font-size: 24px;
+}
+
 .archive .date {
     margin-right: 1em;
-    font-size: .8em;
+    font-size: .9em;
     color: #BBB;
     display: inline-block;
     width: 3em;
 }
 
 .archive h4 {
-    line-height: 40px;
+    line-height: 20px;
+    font-size: 16px;
 }
 
 

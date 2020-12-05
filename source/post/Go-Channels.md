@@ -9,7 +9,7 @@ draft = false
 ```
 Golang使用Groutine和channels实现了CSP(Communicating Sequential Processes)模型，channles在goroutine的通信和同步中承担着重要的角色。在GopherCon 2017中，Golang专家Kavya深入介绍了 Go Channels 的内部机制，以及运行时调度器和内存管理系统是如何支持Channel的，本文根据Kavya的ppt学习和分析一下go channels的原理，希望能够对以后正确高效使用golang的并发带来一些启发。
 
-<!--more -->
+<!--more-->
 
 以一个简单的channel应用开始，使用goroutine和channel实现一个任务队列，并行处理多个任务。
 ```Go
