@@ -5,14 +5,14 @@
             <a href="{{.Base}}/feed.xml">Feed</a> |
             <a href="{{.Base}}/sitemap.xml">Sitemap</a>
         </p>
-        <p>Powered by <a href="https://github.com/kdf5000/pugo">PuGo {{.Version}}</a>. Theme by Default.
+        <p>Powered by <a href="https://github.com/go-xiaohei/pugo">PuGo {{.Version}}</a>. Theme by Default.
         </p>
         {{template "embed/analytics.html" .}}
     </div>
 </footer>
 <script src="{{.Base}}/js/jquery-2.1.4.min.js"></script>
 <script src="{{.Base}}/js/bootstrap.min.js"></script>
-<script src="{{.Base}}/js/prism.min.{{.Meta.PrismTheme}}.js"></script>
+<script src="{{.Base}}/js/prism.min.js"></script>
 <script>
     $(document).ready(function () {
         $("pre code").addClass("line-numbers")

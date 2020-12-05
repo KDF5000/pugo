@@ -179,7 +179,12 @@ body {
 }
 
 .article .brief img {
-    max-width: 100%;
+    max-width: 70%;
+    display: block;
+    vertical-align: middle;
+    box-shadow: 0 0 4px #555;
+    margin: 10px auto;
+    border-radius: 6px;
 }
 
 .article-pager .btn {

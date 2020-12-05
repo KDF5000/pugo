@@ -1,31 +1,10 @@
 ```toml
-# post title, required
 title = "Microsoft Azure Cloud Storage: Giza"
-
-# post slug, use to build permalink and url, required
-slug = "Microsoft Azure Cloud Storage: Giza"
-
-# post description, show in header meta
-desc = "Microsoft Azure Cloud Storage: Giza"
-
-# post created time, support
-# 2015-11-28, 2015-11-28 12:28, 2015-11-28 12:28:38
-date = "2020-12-03 12:20:20"
-
-# post updated time, optional
-# if null, use created time
-# update_date = "2016-03-25 12:20:20"
-
-# author identifier, reference to meta [[author]], required
+date = "2020-02-17 23:45:14"
+update_date = "2020-02-17 23:45:14"
 author = "KDF5000"
-
-# thumbnails to the post
-thumb = "@media/golang.png"
-
-# tags, optional
-tags = ["Cloud Storage"]
-
-# draft status, if true, not show in public
+thumb = ""
+tags = ["Distributed System", "Distributed Storage"]
 draft = false
 ```
 
@@ -42,6 +21,8 @@ Microsoft Azure Cloud Storage Series:
 Giza是构建在Azure Blob Storage之上的一层服务，在此之前Azure BLOB Storage只支持单Datacenter(虽然可以通过异步复制在不同的Stamp之间同步数据，但只能是一个最终一致性的系统)，并且通过LRC的优化在保证可靠性和可用性的前提下将存储成本降到了足够低(1.3)，但是随着业务的发展，对存储的需求要求越来越高，对DC级别的故障容灾的需求越来越强烈，Giza正是为了解决这个问题，为了保证尽量利用现有的存储基础设施，微软选择了在原有存储系统之上构建多DC的存储系统，这就诞生了Giza：**一个强一致的，支持多版本，使用EC编码并且跨全球数据中心的对象存储系统**。
 
 当前Azure在全球有38个不同的Region，数EB的数据存储量，为了保护用户的数据在磁盘、机器、机架故障的情况下数据依然完好无损，微软设计LRC[1]在保证数据高可用和高可靠的情况下极大的降低了存储成本。但是随着业务的发展，用户对数据安全性的要求越来越高，希望能够在地震、洪水等可能导致Region或者机房级别故障的情况下，数据依然是可以访问的，因此这就要求Azure需要将数据在其他Region也保存一份，这就导致了存储成功成倍的增加。使用EC在单机房非常有效的将存储成本将了下来，自然而然的如果能够将EC数据分布在多个Region或者Datacenter就能够在保证数据可靠性的情况下将低存储成本。但是将EC的多个分片数据分布在不同的Datacenter就会导致每次请求都要从不同的Datacenter获取数据，导致占用cross-dc的带宽占用并增加请求延迟，而且在Datacenter出现故障恢复后会产生大量的跨DC的数据修复。在Datacenter专线带宽有限且费用昂贵的情况下，这种跨Datacenter的EC方案并非最好的解决方案。
+
+<!--more-->
 
 **Design Goals**
 

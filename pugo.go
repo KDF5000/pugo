@@ -24,6 +24,7 @@ func main() {
 	app.Version = vars.Version
 	app.Compiled = time.Now()
 	app.Commands = []cli.Command{
+		command.Migrate,
 		command.Build,
 		command.Server,
 		command.New,

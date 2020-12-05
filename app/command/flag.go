@@ -52,4 +52,12 @@ var (
 		Name:  "doc",
 		Usage: "extract documentation data",
 	}
+	migrateSrcFlag = cli.StringFlag{
+		Name:  "from",
+		Usage: "hexo post source file",
+	}
+	migrateDestFlag = cli.StringFlag{
+		Name:  "to",
+		Usage: "migrate hexo source file to this directory",
+	}
 )

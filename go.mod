@@ -23,4 +23,5 @@ require (
 	golang.org/x/net v0.0.0-20201110031124-69a78807bb2b
 	gopkg.in/fsnotify.v1 v1.4.7
 	gopkg.in/ini.v1 v1.62.0
+	gopkg.in/yaml.v2 v2.2.8
 )

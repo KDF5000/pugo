@@ -6,16 +6,16 @@ title = "OpenHex"
 subtitle = "Just For Fun"
 
 # print in html <meta>
-keyword = "golang,c++,cloud storage,distributed system"
+keyword = "golang,c++,distributed system,storage system,对象存储,分布式存储"
 
 # print in html <meta>
-desc = ""
+desc = "A place to rock the distributed world!"
 
 # build links for feed, sitemap
 domain = "openhex.cn"
 
 # root path for site# if empty, build as http://{domain}/
-root = ""
+root = "http://openhex.cn/"
 
 # cover page for homepage
 cover = "@media/cover.jpg"
@@ -24,44 +24,40 @@ cover = "@media/cover.jpg"
 # its used in global posts and themes, unless pages set lang
 lang = "en"
 
-# markdown code theme, seee https://prismjs.com/
-prism_theme = "default"
-# prism_theme = "okaidia"
 
 [[nav]]
-link = "/About"
+link = "/"
+title = "Home"
+i18n = "home"
+# set nav to active status
+hover = "index"
+blank = false
+
+[[nav]]
+link = "/archive"
+title = "Archive"
+i18n = "archive"
+hover = "archive"
+
+[[nav]]
+link = "/about"
 title = "About"
 i18n = "about"
-hover = "about me"
-blank = true
+hover = "about"
 
 # [[nav]]
-# link = "/docs"
-# title = "Docs"
-# i18n = "docs"
-# hover = "docs"
-# blank = true
-# 
-# [[nav]]
-# link = "http://godoc.org/github.com/kdf5000/pugo"
-# title = "API"
-# i18n = "api"
-# hover = "api"
-# blank = true
-# 
-# [[nav]]
-# link = "/news"
-# title = "News"
-# i18n = "news"
-# hover = "news"
+# link = "http://pugo.io"
+# title = "Source"
+# i18n = "source"
+# # browser open in new tab
 # blank = true
 
 [[author]]
-name = "KDF5000"
-email = ""
+name = "KDF000"
+email = "kongdefei@openhex.cn"
 url = "http://openhex.cn"
 avatar = "@media/author.png"
-bio = ""
+bio = "the robot of pugo, who generates all default contents."
 
 # comment settings
 # please only set one value
